@@ -14,7 +14,7 @@ export class LaunchDarklyService {
   constructor() {
     this.flags = {};
 
-    this.ldClient = LDClient.initialize('6292d45ae11a2e14fd1afaae', {
+    this.ldClient = LDClient.initialize('', {
       key: 'ss-test-project',
       anonymous: true,
     });
